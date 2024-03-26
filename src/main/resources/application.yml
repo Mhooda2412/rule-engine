@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: rule-engine
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rule-engine
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql : true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+
+
